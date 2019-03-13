@@ -1,3 +1,8 @@
+/***** 공통사항 *****/
+.wrap {width: 96%; margin: auto; max-width: 960px;}
+.page {}
+
+
 /***** .navs *****/
 .navs {width: 100%; position: fixed; z-index: 9999; color:#999;}
 .navs > ul {float: left;}
@@ -29,7 +34,13 @@ background-attachment: fixed;
 .main_tit {position: absolute; color: #fff; background-color: #222; font-size: 2rem; 
 	padding: 0.75rem 1rem; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 .main_tit:after {content: "MY WEBSITE LOGO"; letter-spacing: 0.25rem;}
-.sample {height:5000px;}
+
+/***** .abouts *****/
+
+
+
+
+
 
 
 /***** 반응형 *****/
