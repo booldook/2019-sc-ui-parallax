@@ -1,11 +1,12 @@
 /***** .navs *****/
 .navs {width: 100%; position: fixed; z-index: 9999;}
 .navs > ul {float: left;}
-.navs > ul > li.nav {float: left; padding: 1rem 1.25rem; cursor: pointer;}
-.navs > ul > li.nav:hover {background-color: #ccc;}
+.navs > ul > li.nav {float: left; color:#999; padding: 1rem 1.25rem; cursor: pointer;}
+.navs > ul > li.nav:hover {background-color: #ccc; color:#111;}
 .navs > ul > li.nav > i {margin-right: 0.5rem;}
-.navs > div.search {float: right; padding: 1rem 1.25rem;}
+.navs > div.search {float: right; padding: 1rem 1.25rem; color:#999;}
 .navs > div.search:hover {background-color: #f10; color: #fff; cursor: pointer;}
+.navs-shadow {}
 
 /***** .mains *****/
 /* 
@@ -25,13 +26,13 @@ background-size: cover;
 background-attachment: fixed;
 }
 .main_tit {position: absolute; color: #fff; background-color: #222; font-size: 2rem; 
-	padding: 0.75rem 1rem; left: 50%; top: 50%; transform: translate(-50%, -50%); letter-spacing: 0.25rem;}
-.main_tit:after {content: "MY WEBSITE LOGO";}
-
+	padding: 0.75rem 1rem; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.main_tit:after {content: "MY WEBSITE LOGO"; letter-spacing: 0.25rem;}
+.sample {height:5000px;}
 
 
 /***** 반응형 *****/
 @media screen and (max-width: 768px) {
-	.main_tit:after {content: "MY LOGO";}
+	.main_tit:after {content: "MY LOGO"; letter-spacing: 0.25rem;}
 }
 
