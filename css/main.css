@@ -1,10 +1,13 @@
 /***** 공통사항 *****/
 .wrap {width: 96%; margin: auto; max-width: 960px;}
-.page {}
+.page {padding: 3rem; font-size: 1rem; color: #666;}
+.page > h3.tit {text-align: center; margin-bottom: 1.5rem;}
+.page > i.cmt {text-align: center; margin-bottom: 1.5rem; display: block;}
+.page > p.cont {text-align: justify; line-height: 1.75rem; margin-bottom: 1.5rem;}
 
 
 /***** .navs *****/
-.navs {width: 100%; position: fixed; z-index: 9999; color:#999;}
+.navs {width: 100%; position: fixed; z-index: 9999; color:#666;}
 .navs > ul {float: left;}
 .navs > ul > li.nav {float: left; padding: 1rem 1.25rem; cursor: pointer;}
 .navs > ul > li.nav:hover {background-color: #ccc; color:#111;}
