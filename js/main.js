@@ -1,5 +1,4 @@
 //$(this).css({"background-color":"#fff", "box-shadow":"0 0 10px rgba(0,0,0,0.5)"});
-
 $(window).scroll(function(){
 	var scTop = $(window, document, "html", "body").scrollTop();
 	if(scTop > 150) {
@@ -11,6 +10,6 @@ $(window).scroll(function(){
 		}
 	}
 	else {
-		console.log("위");
+		$(".navs").removeClass("navs-shadow");
 	}
 });

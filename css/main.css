@@ -1,12 +1,13 @@
 /***** .navs *****/
-.navs {width: 100%; position: fixed; z-index: 9999;}
+.navs {width: 100%; position: fixed; z-index: 9999; color:#999;}
 .navs > ul {float: left;}
-.navs > ul > li.nav {float: left; color:#999; padding: 1rem 1.25rem; cursor: pointer;}
+.navs > ul > li.nav {float: left; padding: 1rem 1.25rem; cursor: pointer;}
 .navs > ul > li.nav:hover {background-color: #ccc; color:#111;}
 .navs > ul > li.nav > i {margin-right: 0.5rem;}
 .navs > div.search {float: right; padding: 1rem 1.25rem; color:#999;}
 .navs > div.search:hover {background-color: #f10; color: #fff; cursor: pointer;}
-.navs-shadow {background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.navs-shadow {background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	color:#111 !important;}
 
 /***** .mains *****/
 /* 
