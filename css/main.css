@@ -26,7 +26,7 @@ background:
 좌우위치(left(기), center, right, px, %, rem...)__
 상하위치(top(기), center, bottom, px, %, rem...)
 */
-.mains {width: 100%; height: 50%; position: relative;
+.mains {width: 100%; height: 50%; position: relative; opacity: 0.8;
 /* background: url(../img/p1.jpg) no-repeat center; */
 background-image: url(../img/parallax1.jpg);
 background-repeat: no-repeat;
@@ -42,7 +42,8 @@ background-attachment: fixed;
 .about {font-size: 1rem;}
 .about > .about_pic {width: 50%; float: left; padding: 3%;}
 .about > .about_pic > .tit {text-align: center; font-size: 1em; margin-bottom: 1.5em;}
-.about > .about_pic > img {}
+.about > .about_pic > img {opacity: 0.8;}
+.about > .about_pic > img:hover {opacity: 1;}
 .about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify;}
 
 
