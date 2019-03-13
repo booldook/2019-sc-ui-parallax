@@ -1,0 +1,4 @@
+.navs {width: 100%;}
+.navs > ul {float: left;}
+.navs > ul > li.nav {float: left;}
+.navs > div.search {float: right;}
