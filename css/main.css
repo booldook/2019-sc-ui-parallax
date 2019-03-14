@@ -53,6 +53,10 @@ background-attachment: fixed;
 	padding: 0.5rem 0;}
 
 
+/***** .history *****/
+.history {margin: 2rem 0; background-color: #555; color: #f1f1f1;}
+.history > li {width: 25%; float: left; text-align: center; padding: 2rem 0;}
+
 
 
 
