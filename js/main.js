@@ -13,3 +13,7 @@ $(window).scroll(function(){
 		$(".navs").removeClass("navs-shadow");
 	}
 });
+
+$("#bt_top").click(function(){
+	$("html, body").stop().animate({"scrollTop": 0}, 500);
+});
