@@ -86,11 +86,14 @@ background-attachment: fixed;
 .loc > .loc_cont > .city, 
 .loc > .loc_cont > .phone, 
 .loc > .loc_cont > .email {font-size: 1.25rem;}
+.loc > .loc_cont > .cmt {margin: 0.5rem 0;}
 .contact_form > input {padding: 0.5rem; border: 1px solid #aaa; 
 	margin: 0.25rem 0.125rem;}
 .contact_form > .name,	
 .contact_form > .email {width: calc(50% - 0.5rem);}	
 .contact_form > .msg {width: calc(100% - 0.5rem);}
+.contact_form > .bt_send {float: right; padding: 0.75rem 1.25rem; background-color: #111; color: #f1f1f1;}
+.contact_form > .bt_send:hover {background-color: #bbb; color: #111;}
 
 
 /***** 반응형 *****/
