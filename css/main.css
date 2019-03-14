@@ -54,9 +54,17 @@ background-attachment: fixed;
 
 
 /***** .history *****/
-.history {margin: 2rem 0; background-color: #555; color: #f1f1f1;}
+.history {margin-top: 2rem; background-color: #555; color: #f1f1f1;}
 .history > li {width: 25%; float: left; text-align: center; padding: 2rem 0;}
+.history > li > h4 {padding: 0.5rem 0;}
+.history > li > p {padding-bottom: 0.5rem;}
 
+/***** .ports *****/
+.ports > .banner {width: 100%; height: 400px; text-align: center; 
+	background: url(../img/parallax2.jpg) no-repeat center top; 
+	background-attachment: fixed; 
+	background-size: cover;}
+.ports > .banner	> h2 {line-height: 400px; color: #f1f1f1;}
 
 
 
