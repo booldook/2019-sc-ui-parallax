@@ -86,7 +86,11 @@ background-attachment: fixed;
 .loc > .loc_cont > .city, 
 .loc > .loc_cont > .phone, 
 .loc > .loc_cont > .email {font-size: 1.25rem;}
-
+.contact_form > input {padding: 0.5rem; border: 1px solid #aaa; 
+	margin: 0.25rem 0.125rem;}
+.contact_form > .name,	
+.contact_form > .email {width: calc(50% - 0.5rem);}	
+.contact_form > .msg {width: calc(100% - 0.5rem);}
 
 
 /***** 반응형 *****/
