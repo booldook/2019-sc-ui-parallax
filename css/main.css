@@ -19,6 +19,8 @@
 .navs > div.hamburger:hover {background-color: #111; color: #fff; cursor: pointer;}
 .navs-shadow {background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 	color:#111 !important;}
+.nav_sub {width: 100%; position: fixed; top: 3.15rem; background: #fff; z-index: 9998; display: none;}
+.nav_sub > li {padding:1rem 1.5rem; color: #000;}
 
 /***** .mains *****/
 /* 
@@ -116,10 +118,18 @@ footer > .copyright {color: #f1f1f1;}
 	.navs > div.hamburger {display: block;}
 	.navs > ul > li:not(:first-child) {display: none;}
 	.main_tit:after {content: "MY LOGO"; letter-spacing: 0.25rem;}
+	.about > .about_pic {width: 100%;}
+	.about > .about_cont {display: none;}
+	.history > li {width: 100%;}
+	.works > ul > li.work {width: 50%;}
+	.loc > .loc_pic {width: 100%;}
+	.loc > .loc_cont {width: 100%;}
+	.contact_form > .name,	
+	.contact_form > .email {width: calc(100% - 0.5rem);}
 }
 
 @media screen and (max-width: 480px) {
-	
+	.works > ul > li.work {width: 100%;}
 }
 
 @media screen and (max-width: 320px) {

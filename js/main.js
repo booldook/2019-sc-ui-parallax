@@ -17,3 +17,8 @@ $(window).scroll(function(){
 $("#bt_top").click(function(){
 	$("html, body").stop().animate({"scrollTop": 0}, 500);
 });
+
+//$(".navs > .hamburger")
+$(".navs").children(".hamburger").click(function(){
+	$(".nav_sub").toggle();
+});
