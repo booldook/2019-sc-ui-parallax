@@ -47,14 +47,29 @@ background-attachment: fixed;
 .about {font-size: 1rem;}
 .about > .about_pic {width: 50%; float: left; padding: 3%;}
 .about > .about_pic > .tit {text-align: center; font-size: 1em; margin-bottom: 1.5em;}
-.about > .about_pic > img {opacity: 0.8;}
-.about > .about_pic > img:hover {opacity: 1;}
+.about > .about_pic > img {opacity: 0.5; transition: all 1s ease-in-out;}
+.about > .about_pic > img:hover {opacity: 1; transform: scale(1.2); }
 .about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify;}
 .skills > .tit {font-size: 1.125rem; text-align: center; padding: 2rem 0;}
 .skills .skill_tit {letter-spacing: 0.5rem; padding: 1rem 0;}
 .skills .skill_graph {background-color: #ccc; margin-bottom: 1rem;}
-.skills .skill_bar {background-color: #333; width:90%; color:#f1f1f1; text-align: center; 
-	padding: 0.5rem 0;}
+.skills .skill_bar {background-color: #333; color:#f1f1f1; text-align: center; 
+	padding: 0.5rem 0; width: 10%;}
+.skills > .cont > :nth-child(2) > .skill_bar:hover {animation-name: barAni1; animation-duration: 2s; animation-fill-mode: forwards;}
+.skills > .cont > :nth-child(4) > .skill_bar:hover {animation-name: barAni2; animation-duration: 2s; animation-fill-mode: forwards;}
+.skills > .cont > :nth-child(6) > .skill_bar:hover {animation-name: barAni3; animation-duration: 2s; animation-fill-mode: forwards;}
+@keyframes barAni1 {
+	from {width:10%;}
+	to {width: 90%;}
+}
+@keyframes barAni2 {
+	from {width:10%;}
+	to {width: 80%;}
+}
+@keyframes barAni3 {
+	from {width:10%;}
+	to {width: 85%;}
+}
 
 
 /***** .history *****/

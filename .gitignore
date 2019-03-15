@@ -1,3 +1,5 @@
 ./vscode
 *.psd
 webfonts
+.firebase
+firebase.json
