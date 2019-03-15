@@ -12,7 +12,7 @@
 	<script src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<style>
-		.box {border: 10px solid #f00; padding: 100px;}
+		.box {border: 10px solid #f00; padding: 100px; position: absolute; top: 50px; left: 50px;}
 		.child {border: 10px solid #00f; background-color: aquamarine; width: 300px; height: 300px; padding: 20px; margin: 30px;}
 	</style>
 </head>
@@ -36,18 +36,13 @@
 	//console.log(wid);
 	//console.log(wid2);
 	var off = $(".child").offset();
-	var offTop = $(".child").offset();
-	var offLeft = $(".child").offset();
+	var offTop = $(".child").offset().top;
+	var offLeft = $(".child").offset().left;
 	var pos = $(".child").position();
-	var posTop = $(".child").position();
-	var posLeft = $(".child").position();
-	console.log(off);
-	console.log(pos);
-
-	var abc = {
-		left: 100,
-		top: 200
-	}
+	var posTop = $(".child").position().top;
+	var posLeft = $(".child").position().left;
+	console.log(off, offTop, offLeft);
+	console.log(pos, posTop, posLeft);
 	</script>
 </body>
 </html>
