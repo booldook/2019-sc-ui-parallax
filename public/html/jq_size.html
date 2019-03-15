@@ -13,13 +13,13 @@
 	<script src="../js/bootstrap.min.js"></script>
 	<style>
 		.box {border: 10px solid #f00; padding: 100px;}
-		.child {border: 10px solid #00f; background-color: aquamarine; width: 300px; height: 300px;}
+		.child {border: 10px solid #00f; background-color: aquamarine; width: 300px; height: 300px; padding: 20px; margin: 30px;}
 	</style>
 </head>
 <body>
 	<div class="box">
 		<div class="child">
-
+			가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하
 		</div>
 	</div>
 	<script>
@@ -33,8 +33,21 @@
 	wid2[1] = $(".child").innerWidth();
 	wid2[2] = $(".child").outerWidth();
 	wid2[3] = $(".child").outerWidth(true);
-	console.log(wid);
-	console.log(wid2);
+	//console.log(wid);
+	//console.log(wid2);
+	var off = $(".child").offset();
+	var offTop = $(".child").offset();
+	var offLeft = $(".child").offset();
+	var pos = $(".child").position();
+	var posTop = $(".child").position();
+	var posLeft = $(".child").position();
+	console.log(off);
+	console.log(pos);
+
+	var abc = {
+		left: 100,
+		top: 200
+	}
 	</script>
 </body>
 </html>
