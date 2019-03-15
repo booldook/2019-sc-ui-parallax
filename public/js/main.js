@@ -12,6 +12,11 @@ $(window).scroll(function(){
 	else {
 		$(".navs").removeClass("navs-shadow");
 	}
+	var pos = [];
+	$(".section").each(function(i){
+		pos[i] = $(this).offset().top;
+	});
+	console.log(pos);
 });
 
 $("#bt_top").click(function(){
