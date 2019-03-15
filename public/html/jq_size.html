@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>jQuery size/position/offset 의 이해</title>
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/w3.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<style>
+		.box {border: 10px solid #f00; padding: 100px;}
+		.child {border: 10px solid #00f; background-color: aquamarine; width: 300px; height: 300px;}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="child">
+
+		</div>
+	</div>
+	<script>
+	var wid = []; 
+	wid[0] = $(".box").width();
+	wid[1] = $(".box").innerWidth();
+	wid[2] = $(".box").outerWidth();
+	wid[3] = $(".box").outerWidth(true);
+	var wid2 = [];
+	wid2[0] = $(".child").width();
+	wid2[1] = $(".child").innerWidth();
+	wid2[2] = $(".child").outerWidth();
+	wid2[3] = $(".child").outerWidth(true);
+	console.log(wid);
+	console.log(wid2);
+	</script>
+</body>
+</html>
