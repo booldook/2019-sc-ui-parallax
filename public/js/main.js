@@ -22,3 +22,8 @@ $("#bt_top").click(function(){
 $(".navs").children(".hamburger").click(function(){
 	$(".nav_sub").toggle();
 });
+
+$(".skill_bar").each(function(){
+	var wid = $(this).html();
+	$(this).css({"width":wid});
+});
