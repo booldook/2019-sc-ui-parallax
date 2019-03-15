@@ -23,7 +23,23 @@ $(".navs").children(".hamburger").click(function(){
 	$(".nav_sub").toggle();
 });
 
+/***** Animation *****/
+$(".main_tit").css({"opacity": 1, "transform":"translate(-50%, -50%)"});
+
+$(".about > div").css({"transform":"translateX(0)", "opacity":1});
+
 $(".skill_bar").each(function(){
 	var wid = $(this).html();
 	$(this).css({"width":wid});
 });
+
+$(".work").each(function(){
+	//var i = $(this).index();
+	//$(this).css({"transition-delay": (i * 0.2)+"s"});
+	var n = Math.random() * 1.5;
+	$(this).css({"transition-delay": n+"s"});
+	$(this).css({"opacity": 1, "transform":"scale(1)"});
+});
+
+$(".loc_pic, .loc_cont").css({"opacity": 1, "transform":"translateY(0)"});
+
