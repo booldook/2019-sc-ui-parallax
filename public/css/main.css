@@ -57,7 +57,7 @@ background-attachment: fixed;
 	padding: 0.5rem 0; width: 10%;}
 .skills > .cont > :nth-child(2) > .skill_bar:hover {animation-name: barAni1; animation-duration: 2s; animation-fill-mode: forwards;}
 .skills > .cont > :nth-child(4) > .skill_bar:hover {animation-name: barAni2; animation-duration: 2s; animation-fill-mode: forwards;}
-.skills > .cont > :nth-child(6) > .skill_bar:hover {animation-name: barAni3; animation-duration: 2s; animation-fill-mode: forwards; animation-direction: }
+.skills > .cont > :nth-child(6) > .skill_bar:hover {animation-name: barAni3; animation-duration: 2s; animation-fill-mode: forwards;}
 @keyframes barAni1 {
 	from {width:50%;}
 	to {width: 90%;}
