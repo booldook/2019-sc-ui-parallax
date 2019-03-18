@@ -2754,14 +2754,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @keyframes w90 { 0% {width: 20%;} 100%  {width: 90%;} }
 @keyframes w95 { 0% {width: 20%;} 100%  {width: 95%;} }
 @keyframes w100 { 0% {width: 20%;} 100%  {width: 100%;} }
-.w50 {animation-name: w50;}
-.w55 {animation-name: w55;}
-.w60 {animation-name: w60;}
-.w65 {animation-name: w65;}
-.w70 {animation-name: w70;}
-.w75 {animation-name: w75;}
-.w80 {animation-name: w80;}
-.w85 {animation-name: w85;}
-.w90 {animation-name: w90;}
-.w95 {animation-name: w95;}
-.w100 {animation-name: w100;}
+.w50 {animation-name: w50; animation-fill-mode: forwards;}
+.w55 {animation-name: w55; animation-fill-mode: forwards;}
+.w60 {animation-name: w60; animation-fill-mode: forwards;}
+.w65 {animation-name: w65; animation-fill-mode: forwards;}
+.w70 {animation-name: w70; animation-fill-mode: forwards;}
+.w75 {animation-name: w75; animation-fill-mode: forwards;}
+.w80 {animation-name: w80; animation-fill-mode: forwards;}
+.w85 {animation-name: w85; animation-fill-mode: forwards;}
+.w90 {animation-name: w90; animation-fill-mode: forwards;}
+.w95 {animation-name: w95; animation-fill-mode: forwards;}
+.w100 {animation-name: w100; animation-fill-mode: forwards;}

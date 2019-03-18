@@ -49,7 +49,7 @@ background-attachment: fixed;
 .about > .about_pic > .tit {text-align: center; font-size: 1em; margin-bottom: 1.5em;}
 .about > .about_pic > img {opacity: 0.5; transition: all 1s ease-in-out;}
 .about > .about_pic > img:hover {opacity: 1; transform: scale(1.2); }
-.about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify; opacity: 0;}
+.about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify;}
 .skills > .tit {font-size: 1.125rem; text-align: center; padding: 2rem 0;}
 .skills .skill_tit {letter-spacing: 0.5rem; padding: 1rem 0;}
 .skills .skill_graph {background-color: #ccc; margin-bottom: 1rem;}
