@@ -40,16 +40,16 @@ background-size: cover;
 background-attachment: fixed;
 }
 .main_tit {position: absolute; color: #fff; background-color: #222; font-size: 2rem; 
-	padding: 0.75rem 1rem; left: 50%; top: 50%; transform: translate(-50%, 200%); opacity: 0; transition: all 2s;}
+	padding: 0.75rem 1rem; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .main_tit:after {content: "MY WEBSITE LOGO"; letter-spacing: 0.25rem;}
 
 /***** .abouts *****/
 .about {font-size: 1rem;}
-.about > .about_pic {width: 50%; float: left; padding: 3%; opacity: 0; transform: translateX(-200px); transition: all 2s;}
+.about > .about_pic {width: 50%; float: left; padding: 3%;}
 .about > .about_pic > .tit {text-align: center; font-size: 1em; margin-bottom: 1.5em;}
 .about > .about_pic > img {opacity: 0.5; transition: all 1s ease-in-out;}
 .about > .about_pic > img:hover {opacity: 1; transform: scale(1.2); }
-.about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify; opacity: 0; transform: translateX(200px); transition: all 2s; transition-delay: 0.5s;}
+.about > .about_cont {width: 50%; float: right; padding: 3%; line-height: 1.5em; text-align: justify; opacity: 0;}
 .skills > .tit {font-size: 1.125rem; text-align: center; padding: 2rem 0;}
 .skills .skill_tit {letter-spacing: 0.5rem; padding: 1rem 0;}
 .skills .skill_graph {background-color: #ccc; margin-bottom: 1rem;}
@@ -86,7 +86,7 @@ background-attachment: fixed;
 	background-size: cover;}
 .ports > .banner	> h2 {line-height: 400px; color: #f1f1f1; letter-spacing: 0.5rem;}
 .works > ul {margin-top: 2rem;}
-.works > ul > li.work {float: left; width: 25%; padding: 1%; cursor: pointer; transition: all 2s; opacity: 0; transform: scale(0);}
+.works > ul > li.work {float: left; width: 25%; padding: 1%; cursor: pointer;}
 .works > ul > li.work:hover {opacity: 0.8;}
 .works > .bts {padding:2rem 0; text-align: center;}
 .works > .bts > .bt_more {background-color: #eee; padding: 0.75rem 1.25rem;}
@@ -99,9 +99,9 @@ background-attachment: fixed;
 	background-size: cover;}
 .contacts > .banner	> h2 {line-height: 400px; color: #f1f1f1; letter-spacing: 0.5rem;}
 .loc {margin-top: 1rem;}
-.loc > .loc_pic {float: left; width: 40%; padding: 2%; transition: all 2s; opacity: 0; transform: translateY(-100%);}
+.loc > .loc_pic {float: left; width: 40%; padding: 2%;}
 .loc > .loc_pic > img {border-radius: 0.5rem;}
-.loc > .loc_cont {float: left; width: 60%; padding: 2%; transition: all 2s; opacity: 0; transform: translateY(100%); transition-delay: 1s;}
+.loc > .loc_cont {float: left; width: 60%; padding: 2%;}
 .loc > .loc_cont > li {padding: 0.5rem 0;}
 .loc > .loc_cont > .city, 
 .loc > .loc_cont > .phone, 
@@ -123,6 +123,12 @@ footer > .sns > i {cursor: pointer;}
 footer > .sns > i:hover {color: orange;}
 footer > .copyright {color: #f1f1f1;}
 
+/***** Animation *****/
+.ani-opacity {opacity: 0; transition-property:opacity; transition-duration: 2s;}
+.ani-slideUp {opacity: 0; transform:translateY(-100%); transition-property:transform; transition-duration: 2s;}
+.ani-slideDn {opacity: 0; transform:translateY(100%); transition-property:transform; transition-duration: 2s;}
+.ani-slideLt {opacity: 0; transform:translateX(-100%); transition-property:transform; transition-duration: 2s;}
+.ani-slideRt {opacity: 0; transform:translateX(100%); transition-property:transform; transition-duration: 2s;}
 
 /***** 반응형 *****/
 @media screen and (max-width: 1024px) {

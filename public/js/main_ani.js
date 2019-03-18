@@ -14,6 +14,9 @@ $(window).scroll(function(){
 	else {
 		$(".navs").removeClass("navs-shadow");
 	}
+
+	
+	/*
 	var pos = [];
 	$(".section").each(function(i){
 		pos[i] = $(this).offset().top - 300;
@@ -39,6 +42,7 @@ $(window).scroll(function(){
 	else if(scTop >= pos[4]) {
 		$(".loc_pic, .loc_cont").css({"opacity": 1, "transform":"translateY(0)"});
 	}
+	*/
 });
 
 $("#bt_top").click(function(){
