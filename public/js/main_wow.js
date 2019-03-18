@@ -25,7 +25,7 @@ $(".navs").children(".hamburger").click(function(){
 	$(".nav_sub").toggle();
 });
 
-/***** Animation *****/
+new WOW().init();
 
 
 
